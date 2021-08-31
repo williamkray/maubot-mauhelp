@@ -1,0 +1,8 @@
+maubot: 0.1.0
+id: se.skeg1.mauhelp
+version: 0.1.0
+license: MIT
+modules:
+  - mauhelp
+main_class: MauHelp
+database: false
