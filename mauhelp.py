@@ -25,4 +25,4 @@ class MauHelp(Plugin):
             #help_text += f"**{plugin}**\n\n"
             help_text += f"\n{help_text_dict[plugin]}\n"
 
-        await evt.reply(help_text)
+        await evt.reply(help_text, in_thread=True)
